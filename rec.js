@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 function fibs(n) {
   let sequence = [0, 1];
   for (i = 0; i < n - 2; i++) {
@@ -27,4 +29,3 @@ function fibsRec(n, sequence = [0, 1]) {
 }
 
 console.log(fibsRec(8));
-å;
